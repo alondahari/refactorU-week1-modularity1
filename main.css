@@ -1,1 +1,13 @@
 /* ADD YOUR STYLES HERE */
+.modular-table tr{
+  border-bottom: 1px solid #D3D3D3;
+  font-size: 14px;
+}
+
+.modular-table td, .modular-table th{
+  padding: 7px 100px 7px 0;
+}
+
+.modular-table td:first-child, .modular-table th:first-child{
+  padding-right: 50px;
+}
