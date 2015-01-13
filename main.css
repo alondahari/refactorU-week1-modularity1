@@ -1,4 +1,4 @@
-/* ADD YOUR STYLES HERE */
+/* Table */
 .modular-table tr{
   border-bottom: 1px solid #D3D3D3;
   font-size: 14px;
@@ -10,4 +10,47 @@
 
 .modular-table td:first-child, .modular-table th:first-child{
   padding-right: 50px;
+}
+
+/* Stats */
+.modular-stats{
+  border-top:1px solid #D3D3D3;
+  border-bottom:1px solid #D3D3D3;
+}
+
+.modular-stats td{
+  padding: 18px 15px;
+  text-align: center;
+
+}
+
+.stat-number{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.stat-label{
+  font-size: 11px;
+  color: #D3D3D3;
+}
+
+/* Bar chart */
+.modular-chart th{
+  text-align: right;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.modular-chart td {
+  font-size: 12px;
+  width: 90%;
+  color: white;
+}
+
+.modular-chart td div {
+  background: #599EDE;
+  height: 14px;
+  padding: 4px;
+  border-radius: 0 3px 3px 0;
+
 }
