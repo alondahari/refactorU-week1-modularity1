@@ -54,3 +54,40 @@
   border-radius: 0 3px 3px 0;
 
 }
+
+/* lightbox */
+.modular-lightbox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.5);
+
+}
+
+.modular-lightbox-body{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background: white;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.modular-lightbox-close{
+  float: right;
+  background-color: #ED818A;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.modular-lightbox-close a{
+  text-decoration: none;
+  color: white;
+}
