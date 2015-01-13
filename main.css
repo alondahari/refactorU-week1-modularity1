@@ -1,7 +1,12 @@
+*, *::before, *::after{ box-sizing: border-box; }
+
+body{
+  font-size: 14px;
+}
+
 /* Table */
 .modular-table tr{
   border-bottom: 1px solid #D3D3D3;
-  font-size: 14px;
 }
 
 .modular-table td, .modular-table th{
@@ -57,12 +62,14 @@
 
 /* lightbox */
 .modular-lightbox{
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  left: 0;
+  right: 0;
   background-color: rgba(0,0,0,.5);
+
 
 }
 
@@ -77,7 +84,6 @@
   margin: 0 auto;
   border-radius: 10px;
   padding: 20px;
-  font-size: 14px;
 }
 
 .modular-lightbox-close{
@@ -90,4 +96,15 @@
 .modular-lightbox-close a{
   text-decoration: none;
   color: white;
+}
+
+/* Media block */
+.modular-media-image {
+  margin-right: 10px;
+  float: left;  
+}
+
+.modular-media-content {
+  float: left;
+  width: 90%;
 }
